@@ -4,3 +4,10 @@
   font-weight: normal;
   font-style: normal;
 }
+<style>
+#canvas {
+    width: 720px;
+    height: 1280px;
+}
+</style>
+<canvas id="canvas"></canvas>
