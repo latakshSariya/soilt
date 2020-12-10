@@ -1,4 +1,4 @@
-createCanvas("screen", 320, 400);
+createCanvas("screen", 720, 1280);
 onEvent("Gotonext" , "click" , function(event){
   setScreen("allcrops");
 })
