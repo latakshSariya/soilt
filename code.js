@@ -1,3 +1,4 @@
+createCanvas("screen", 320, 400);
 onEvent("Gotonext" , "click" , function(event){
   setScreen("allcrops");
 })
@@ -650,4 +651,7 @@ onEvent("button205", "click", function(event) {
 });
 onEvent("button208", "click", function(event) {
   setProperty("button212", "text", "4");
+});
+onEvent("button248", "click", function(event) {
+  open("https://www.youtube.com/watch?v=YN7nUHkvxwo");
 });
